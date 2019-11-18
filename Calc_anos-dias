@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/*
+Objetivo 
+	Calcular anos em dias
+Descrição
+	Esse algorítimo possui a visão de apresentar em dias uma determinada quantidade de anos informada.
+*/
+
+int main() {
+setlocale(LC_ALL,"");
+
+int Anos; 
+int Dias; 
+
+printf ("Insira o numero de anos: "); 
+scanf ("%d",&Anos); 
+Dias=Anos*365; 
+
+printf ("\n Olá! %d anos equivalem a %d dias.\n",Anos,Dias);
+
+}
